@@ -1,0 +1,349 @@
+/*Global CSS Start*/
+
+/*Font Link*/
+
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+	margin: 0;
+	padding: 0;
+}
+
+h1,h2,h3,h4,h5,h6,p,span,a,{
+	font-family: 'Playfair Display', serif;
+}
+
+/*Header Section CSS Start*/
+
+.header{
+	width: 100%;
+	margin: 25px 0;
+}
+.navbar{
+
+}
+.navbar .nav-item{
+	padding-left: 80px;
+}
+
+.navbar .nav-item .nav-link{
+	color: #b4ad9e !important;
+	position: relative;
+	transition: 0.5s ease-in-out;
+
+}
+
+.navbar .nav-item .nav-link:hover{
+	color: #000 !important;
+	transition: 0.5s ease-in-out
+}
+
+
+
+
+/*Header Section CSS End*/
+
+
+/*Blog Section CSS Start*/
+
+.blogs{
+	width: 100%;
+}
+
+.blogs img{
+	width: 100%;
+}
+
+.blogs-body{
+	margin: 70px;
+}
+
+.blogs span{
+	color: #b4ad9e;
+	margin: 44px 0px !important;
+}
+
+.blogs h1{
+	margin: 25px 0;
+	color: #626262;
+}
+
+.blogs p{
+	color: #7d7d7d;
+}
+
+
+/*Blog Section CSS End*/
+
+
+/*Gallary Section CSS Start*/
+
+.gallary{
+	width: 100%;
+	/* margin: 55px; */
+}
+
+.gallary .gallary-body{
+	padding: 55px;
+}
+
+.gallary .gallary-body .posts img{
+	margin: 30px 0;
+}
+
+
+.gallary .gallary-body .posts span{
+	margin-top: 20px !important;
+	color: #b4ad9e;
+}
+
+.gallary .gallary-body .posts h4{
+	margin: 25px 0px;
+	color: #626262;
+}
+
+.gallary .gallary-body .posts p{	
+	color: #7d7d7d;
+}
+
+.gallary .gallary-body .posts a{
+	color: #b4ad9e;
+	text-decoration: underline;
+}
+
+.gallary .gallary-body .posts a:hover{
+	color: #000;
+}
+/*Gallary Section CSS End*/
+
+/*Sign-up Section CSS Start*/
+
+.sign-up{
+	width: 100%;
+	background: #f0f0f0;
+}
+.sign-up .emails{
+	text-align: center;
+	margin: 50px 0;
+}
+.emails h2{
+    margin: 40px 0;
+}
+.emails form{
+    position: relative;
+}
+.emails form input:focus{
+	outline: none;
+}
+.emails form input{
+    width: 35%;
+    border: none;
+    border-bottom: 2px solid #626262;
+    padding: 11px;
+    background: none;
+}
+.emails form i{
+	position: absolute;
+	top: 35%;
+	right: 33%;
+	bottom: 0%;
+	color: #626262;
+}
+
+
+
+/*Sign-up Section CSS End*/
+
+
+/*More Gallary CSS Start*/
+
+.more-gallary{
+}
+
+.more-gallary .gallary-body{	
+	margin: 55px;
+}
+
+.more-gallary .gallary-body .posts img{
+	margin-bottom: 25px;
+}
+
+.more-gallary .gallary-body .posts span{
+	margin-top: 20px !important;
+	color: #b4ad9e;
+}
+
+.more-gallary .gallary-body .posts h4{
+	margin: 25px 0px;
+	color: #626262;
+}
+
+.more-gallary .gallary-body .posts p{
+	color: #7d7d7d;
+}
+
+.more-gallary .gallary-body .posts a{
+	color: #b4ad9e;
+	text-decoration: underline;
+}
+
+.more-gallary .gallary-body .posts a:hover{	
+	color: #000;
+}
+
+/*More Gallary CSS End*/
+
+/*Load More Section CSS Start*/
+
+.load-more{
+	text-align: center;
+	margin: 60px 0;
+}
+
+.load-more .load-button{
+}
+
+.load-more .load-button button{
+	padding: 10px 40px;
+	color: #626262;
+	border: 1px solid #b4ad9e;
+	transition: 0.5s ease-in-out;
+}
+.load-more .load-button button:hover{
+	color: #000;
+	background: transparent;
+	border: 1px solid #000;
+	transition: 0.5s ease-in-out;
+
+}
+.load-more .load-button button:focus{
+	outline: none;
+}
+
+/*Load More Section CSS End*/
+
+
+/*Footer Section CSS Start*/
+
+
+.footer{padding: 35px 0;}
+.footer ul li{
+	
+list-style: none;
+	
+display: inline-block;
+	
+padding: 0 10px;
+}
+.footer ul li a{
+	color: black;
+}
+.footer ul li i{
+	color: #7d7d7d;
+}
+
+.left-footer{
+    text-align: left;
+}
+.right-footer{
+    text-align: right;
+}
+
+
+/*Footer Section CSS End*/
+
+
+
+				/*Media Query*/
+/* 
+  ##Device = Desktops
+  ##Screen = 1281px to higher resolution desktops
+*/
+
+@media (min-width: 1281px) {
+  
+  //CSS
+  
+}
+
+/* 
+  ##Device = Laptops, Desktops
+  ##Screen = B/w 1025px to 1280px
+*/
+
+@media (min-width: 1025px) and (max-width: 1280px) {
+  
+  //CSS
+  
+}
+
+/* 
+  ##Device = Tablets, Ipads (portrait)
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  
+  //CSS
+  
+}
+
+/* 
+  ##Device = Most of the Smartphones Mobiles (Portrait)
+  ##Screen = B/w 320px to 479px
+*/
+
+@media (min-width: 320px) and (max-width: 480px) {
+  
+  .blogs-body {
+    margin: 30px;
+}
+	.blogs h1 {
+    font-size: 32px;
+}
+	.gallary .gallary-body {
+    padding: 25px;
+}
+	.emails h2 {
+    margin: 15px 0;
+    font-size: 28px;
+}
+.emails form input {
+    width: 65%;
+}
+	.emails form i {
+    right: 20%;
+    bottom: 0%;
+}
+	.more-gallary .gallary-body {
+    margin: 30px;
+}
+.load-more {
+    margin: 15px 0;
+}
+
+.left-footer {
+    text-align: center;
+}
+
+.right-footer {
+    text-align: center;
+}
+
+  
+}
+
+.navbar .nav-link::before{
+	content: '' ;
+	position: absolute;
+	height: 2px;
+	width: 0%;
+	background:black;
+	bottom:0;
+	left: 0;
+	transition: 0.5s ease-in-out;
+}
+.navbar .nav-link:hover::before{
+	width: 100%;
+	transition: 0.5s ease-in-out;
+}
